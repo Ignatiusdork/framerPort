@@ -3,7 +3,7 @@
 import { projectsData } from "@/lib/data";
 import React, { useRef } from 'react'
 import Image from 'next/image'
-import { motion, useScroll } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,22 +12,24 @@ export default function Project({title, description, tags, imageUrl}: ProjectPro
     const { scrollYProgress } = useScroll({
         target:ref,
         offset: ["0 1", "1.33 1"]
-    })
+    });
+    const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+    const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
     return (
         <motion.div
             ref={ref}
             style={{
-                scale: scrollYProgress,
-                opacity: scrollYProgress,
+                scale: scaleProgress,
+                opacity: opacityProgress,
             }}
-            className="mb-3 sm:mb-8 last:mb-0"
+            className="group mb-3 sm:mb-8 last:mb-0"
         >
             <section 
             ref={ref}
-            className='group bg-gray-100 max-w-[42rem] 
-            border border-black/5
+            className='bg-gray-100 max-w-[42rem] 
+            border border-black/5 rounded-lg
             overflow-hidden sm:pr-8 relative sm:h-[20rem]
-            even:pl-8 hover:bg-gray-200 transition'>
+            even:pl-8 hover:bg-gray-200 transition group-even:pl-8'>
 
                 {/*Left hand Content*/}
                 <div className='pt-4 pb-7 sm:pl-10
