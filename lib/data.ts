@@ -34,30 +34,48 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+
   {
-    title: "Ethereum Bootcamp",
-    location: "Miami, FL",
+    title: "AptLearn Certification",
+    location: "Uyo, Nigeria",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Learned about the fundamentals of technical writing, Learnt from scratch the basic terminologies in technical writing.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023, July",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "SINSO Product-Research Writer",
+    location: "Uyo, Nigeria",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Wrote blockchain and Web3 research articles for SINSO's products, distilling complex concepts into engaging content.",
+      icon: React.createElement(FaReact),
+    date: "2022, July",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Web3 Development",
     location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Contributed to the front-end development/desgin of a decentralized game site(dApps) on the Hedera Hashgraph, leveraging the hedera SDKs and tools to achieve an optimal performance of the applications.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Mar - May 2023",
   },
+  {
+    title: "Discord Manager(H-BRAHS)",
+    location: "Sydney, Australia ",
+    description:
+      "Monitoring and promptly responding to inquiries, feedback, and support requests from community members on the forums.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
+  },
+  {
+    title: "LabourX Freelance",
+    location: "Sydney, Australia ",
+    description:
+      "I am currently working as a freelancer for software development, writing, and also open to full-time roles and opportunities. My stack includes React, Next.js, JavaScript, Tailwind. I am also working to upskill to full stack. ",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2023 - present",
+  },
+
 ] as const;
 
 export const projectsData = [
