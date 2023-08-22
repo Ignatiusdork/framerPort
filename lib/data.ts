@@ -37,7 +37,7 @@ export const experiencesData = [
 
   {
     title: "AptLearn Certification",
-    location: "Uyo, Nigeria",
+    location: "Remote",
     description:
       "Learned about the fundamentals of technical writing, Learnt from scratch the basic terminologies in technical writing.",
     icon: React.createElement(LuGraduationCap),
@@ -104,14 +104,13 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Hardhat",
+  "Ethers.js",
+  "Wagmi",
+  "GraphQl|Sub-graph",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Chainlink",
+  "Pinta",
+  "Solidity",
   "Framer Motion",
 ] as const;
