@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ecurveImg from "@/public/ecurve.png";
+import mortscoinImg from "@/public/mortscoin.png";
+import pinpointImg from "@/public/pinpoint.png";
 
 export const links = [
   {
@@ -45,7 +45,7 @@ export const experiencesData = [
   },
   {
     title: "SINSO Product-Research Writer",
-    location: "Uyo, Nigeria",
+    location: "Remote",
     description:
       "Wrote blockchain and Web3 research articles for SINSO's products, distilling complex concepts into engaging content.",
       icon: React.createElement(FaReact),
@@ -72,25 +72,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PinPoint-Earth",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A geo-location and decentralized blog dapp on ArWeave! Built for exploration, experiences using the decentralized features.",
+    tags: ["JSON/GraphQL", "JavaScript", "ArweaveJS", "Vite", "Svelte", "Tailwind", "Mapbox"],
+    imageUrl: pinpointImg,
   },
   {
-    title: "rmtDev",
+    title: "Mort's Coin",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Your effortless token minter for crafting unique Morts tokens. Seamlessly create, customize, assets on the blockchain.",
+    tags: [ "JavaScript", "Solidity", "React", "Next.js", "Ethers.js", "Hardhat", "CSS"],
+    imageUrl: mortscoinImg,
   },
   {
-    title: "Word Analytics",
+    title: "ECDSA Node",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This is a personal project that shows an example of using a client and server to facilitate transfers between different addresses.",
+    tags: ["Ethererum-cryptography", "JavaScript", "React", "Vite", "SCSS", "Express", "Node.js"],
+    imageUrl: ecurveImg,
   },
 ] as const;
 
