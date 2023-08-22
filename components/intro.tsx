@@ -59,8 +59,8 @@ function Intro() {
         animate={{ opacity: 1, y: 0 }}
         >
         <span className="font-bold">Hello, I'm Ignatius</span>, a{" "}
-        <span className="font-bold">Self-Taught Software Developer</span> with{" "}
-        <span className="font-bold">1+ year</span> of experience. I enjoy
+        <span className="font-bold">Self-taught Software Developer</span>. {" "}
+        <span className="font-bold"></span>  I enjoy {" "}
         building <span className="italic">Web3 sites & apps</span>. My focus is learning more about {" "}
         <span className="underline"> Blockhain Tech, React (Next.js), and getting (1%) better everyday</span>.
         </motion.h1>

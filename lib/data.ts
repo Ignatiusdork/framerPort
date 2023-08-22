@@ -60,14 +60,6 @@ export const experiencesData = [
     date: "Mar - May 2023",
   },
   {
-    title: "Discord Manager(H-BRAHS)",
-    location: "Sydney, Australia ",
-    description:
-      "Monitoring and promptly responding to inquiries, feedback, and support requests from community members on the forums.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
-  },
-  {
     title: "LabourX Freelance",
     location: "Sydney, Australia ",
     description:
