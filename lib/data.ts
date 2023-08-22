@@ -107,7 +107,7 @@ export const skillsData = [
   "Hardhat",
   "Ethers.js",
   "Wagmi",
-  "GraphQl|Sub-graph",
+  "GraphQL|Sub-Graph",
   "Express",
   "Chainlink",
   "Pinta",
