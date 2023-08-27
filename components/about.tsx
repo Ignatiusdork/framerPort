@@ -21,8 +21,8 @@ function About() {
         >
         <SectionHeading>About Me</SectionHeading>
         <p className='mb-3'>
-        After my time in the Univeristy, major in{" "}
-        <span className="font-medium">Enviromental Science and Engineering</span>, I decided to pursue my
+        After my time at the university, majoring in{" "}
+        <span className="font-medium">Environmental Science and Engineering</span>, I decided to pursue my
         passion for programming. I researched and learned myself becoming self-taught{" "}
         <span className="font-medium">in software development and blockchain technologies</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
