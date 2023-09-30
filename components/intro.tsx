@@ -117,7 +117,7 @@ function Intro() {
                 focus:scale-[1.15] hover:scale-[1.15]
                 active:scale-150 transition cursor-pointer
                 border borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
-                href='https://github.com/Ignatiusdork/Ignatiusdork' target='_blank'>
+                href='https://github.com/Ignatiusdork/' target='_blank'>
                 <FaGithub/>
             </a>
         </motion.div>
