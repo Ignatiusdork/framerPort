@@ -34,7 +34,22 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-
+  {
+    title: "LabourX",
+    location: "Sydney, Australia ",
+    description:
+      "I am currently on LabourX as a freelancer for software development, writing, and also open to full-time roles and opportunities. My stack includes PHP, Laravel, MySQL, HTML, CSS. I am also working to upskill to full stack. ",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2023 - present",
+  },
+  {
+    title: "Web3 Development",
+    location: "Houston, TX",
+    description:
+      "Contributed to the front-end development/desgin of a decentralized game site(dApps) on the Hedera Hashgraph, leveraging the hedera SDKs and tools to achieve an optimal performance of the applications.",
+    icon: React.createElement(FaReact),
+    date: "Mar - May 2023",
+  },
   {
     title: "AptLearn Certification",
     location: "Remote",
@@ -51,47 +66,18 @@ export const experiencesData = [
       icon: React.createElement(FaReact),
     date: "2022, July",
   },
-  {
-    title: "Web3 Development",
-    location: "Houston, TX",
-    description:
-      "Contributed to the front-end development/desgin of a decentralized game site(dApps) on the Hedera Hashgraph, leveraging the hedera SDKs and tools to achieve an optimal performance of the applications.",
-    icon: React.createElement(FaReact),
-    date: "Mar - May 2023",
-  },
-  {
-    title: "LabourX Freelance",
-    location: "Sydney, Australia ",
-    description:
-      "I am currently working as a freelancer for software development, writing, and also open to full-time roles and opportunities. My stack includes React, Next.js, JavaScript, Tailwind. I am also working to upskill to full stack. ",
-    icon: React.createElement(CgWorkAlt),
-    date: "Jan 2023 - present",
-  },
 
 ] as const;
 
 export const projectsData = [
   {
-    title: "PinPoint-Earth",
+    title: "Check Github For Project Links",
     description:
-      "A geo-location and decentralized blog dapp on ArWeave! Built for exploration, experiences using the decentralized features.",
+      "check my pinned github repos for links to my different worked on projects",
     tags: ["JSON/GraphQL", "JavaScript", "ArweaveJS", "Vite", "Svelte", "Tailwind", "Mapbox"],
     imageUrl: pinpointImg,
   },
-  {
-    title: "Mort's Coin",
-    description:
-      "Your effortless token minter for crafting unique Morts tokens. Seamlessly create, customize, assets on the blockchain.",
-    tags: [ "JavaScript", "Solidity", "React", "Next.js", "Ethers.js", "Hardhat", "CSS"],
-    imageUrl: mortscoinImg,
-  },
-  {
-    title: "ECDSA Node",
-    description:
-      "This is a personal project that shows an example of using a client and server to facilitate transfers between different addresses.",
-    tags: ["Ethererum-cryptography", "JavaScript", "React", "Vite", "SCSS", "Express", "Node.js"],
-    imageUrl: ecurveImg,
-  },
+
 ] as const;
 
 export const skillsData = [

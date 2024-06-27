@@ -27,7 +27,7 @@ function About() {
         <span className="font-medium">in software development technologies</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        feeling of finally figuring out a solution to a problem. My learning core stack paths
         are{" "}
         <span className="font-medium">
           PHP, Laravel, MySQL
