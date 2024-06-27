@@ -54,14 +54,14 @@ function Intro() {
             </div>
         </div>
         <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-small !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
         <span className="font-bold">Hello, I'm Ignatius</span>, a{" "}
         <span className="font-bold">Self-taught Software Developer</span>. {" "}
         <span className="font-bold"></span>  I enjoy {" "}
-        building <span className="italic"> websites & apps</span>. My focus is learning more about {" "}
+        building <span className="italic"> the backend of websites & apps</span>. My focus is learning more about {" "}
         <span className="underline"> Laravel, Blockchain Tech, and getting (1%) better everyday</span>.
         </motion.h1>
 

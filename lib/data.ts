@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Web3 Development",
     location: "Houston, TX",
     description:
-      "Contributed to the front-end development/desgin of a decentralized game site(dApps) on the Hedera Hashgraph, leveraging the hedera SDKs and tools to achieve an optimal performance of the applications.",
+      "Contributed to the front-end development & desgin of a decentralized gaming site on the Hedera Hashgraph, leveraging the hedera SDKs and tools to achieve an optimal performance of the applications.",
     icon: React.createElement(FaReact),
     date: "Mar - May 2023",
   },
@@ -71,10 +71,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Check Github For Project Links",
+    title: "Project Links",
     description:
-      "check my pinned github repos for links to my different worked on projects",
-    tags: ["JSON/GraphQL", "JavaScript", "ArweaveJS", "Vite", "Svelte", "Tailwind", "Mapbox"],
+      "Please kindly visit my github, pinned repos for offical links to my different worked on projects",
+    tags: ["Pinpoint Earth", "MortsCoin", "Framer Portfolio", "BooksCart", "Svelte"],
     imageUrl: pinpointImg,
   },
 
@@ -93,5 +93,5 @@ export const skillsData = [
   "Solidity",
   "Hardhat",
   "Ethers.js",
-  "GraphQL|Sub-Graph",
+  "GraphQL",
 ] as const
