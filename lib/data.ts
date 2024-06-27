@@ -58,14 +58,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2024, Jan - Mar",
   },
-  // {
-  //   title: "SINSO Product-Research Writer",
-  //   location: "Remote",
-  //   description:
-  //     "Wrote blockchain and Web3 research articles for SINSO's products, distilling complex concepts into engaging content.",
-  //     icon: React.createElement(FaReact),
-  //   date: "2022, July",
-  // },
+  {
+    title: "SINSO Product-Research Writer",
+    location: "Remote",
+    description:
+      "Wrote blockchain and Web3 research articles for SINSO's products, distilling complex concepts into engaging content.",
+      icon: React.createElement(FaReact),
+    date: "2022, July",
+  },
 
 ] as const;
 
