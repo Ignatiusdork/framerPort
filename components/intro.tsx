@@ -61,8 +61,8 @@ function Intro() {
         <span className="font-bold">Hello, I'm Ignatius</span>, a{" "}
         <span className="font-bold">Self-taught Software Developer</span>. {" "}
         <span className="font-bold"></span>  I enjoy {" "}
-        building <span className="italic">Web3 sites & apps</span>. My focus is learning more about {" "}
-        <span className="underline"> Blockchain Tech, React (Next.js), and getting (1%) better everyday</span>.
+        building <span className="italic"> websites & apps</span>. My focus is learning more about {" "}
+        <span className="underline"> Laravel, Blockchain Tech, and getting (1%) better everyday</span>.
         </motion.h1>
 
         <motion.div 
