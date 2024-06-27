@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ecurveImg from "@/public/ecurve.png";
 import mortscoinImg from "@/public/mortscoin.png";
-import pinpointImg from "@/public/pinpoint.png";
+import pinpointImg from "@/public/git.png";
 
 export const links = [
   {
@@ -48,24 +48,24 @@ export const experiencesData = [
     description:
       "Contributed to the front-end development & desgin of a decentralized gaming site on the Hedera Hashgraph, leveraging the hedera SDKs and tools to achieve an optimal performance of the applications.",
     icon: React.createElement(FaReact),
-    date: "Mar - May 2023",
+    date: "2023, Mar - Jun",
   },
   {
-    title: "AptLearn Certification",
+    title: "Code Hawks Audit Reports",
     location: "Remote",
     description:
-      "Learned about the fundamentals of technical writing, Learnt from scratch the basic terminologies in technical writing.",
+      "Participated in first flight security bug hunt contests and technical audit writing reports for real life blockchain protocols and projects code bases, written by the code hawks team. (codehawks profile linked to my github profile page)",
     icon: React.createElement(LuGraduationCap),
-    date: "2023, July",
+    date: "2024, Jan - Mar",
   },
-  {
-    title: "SINSO Product-Research Writer",
-    location: "Remote",
-    description:
-      "Wrote blockchain and Web3 research articles for SINSO's products, distilling complex concepts into engaging content.",
-      icon: React.createElement(FaReact),
-    date: "2022, July",
-  },
+  // {
+  //   title: "SINSO Product-Research Writer",
+  //   location: "Remote",
+  //   description:
+  //     "Wrote blockchain and Web3 research articles for SINSO's products, distilling complex concepts into engaging content.",
+  //     icon: React.createElement(FaReact),
+  //   date: "2022, July",
+  // },
 
 ] as const;
 
@@ -74,7 +74,7 @@ export const projectsData = [
     title: "Project Links",
     description:
       "Please kindly visit my github, pinned repos for offical links to my different worked on projects",
-    tags: ["Pinpoint Earth", "MortsCoin", "Framer Portfolio", "BooksCart", "Svelte"],
+    tags: ["DeliveryCart","Pinpoint Earth", "MortsCoin", "Framer Portfolio", "BooksCart"],
     imageUrl: pinpointImg,
   },
 
