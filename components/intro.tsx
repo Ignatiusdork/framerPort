@@ -62,7 +62,7 @@ function Intro() {
         <span className="font-bold"> Software Developer</span>, {" "}
         <span className="font-bold"></span>  who enjoys {" "}
         building <span className="italic"> the backend of websites & apps</span>. My focus is learning more about {" "}
-        <span className="underline"> Laravel, Blockchain Tech, and getting (1%) better everyday</span>.
+        <span className="underline"> Backend frameworks like Laravel, Express, and also Blockchain Tech, while getting (1%) better everyday</span>.
         </motion.h1>
 
         <motion.div 
