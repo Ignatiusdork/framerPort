@@ -23,8 +23,8 @@ function About() {
         <p className='mb-3'>
         After my time at the university, majoring in{" "}
         <span className="font-medium">Environmental Science and Engineering</span>, I decided to pursue my
-        passion for programming. I researched and learned by myself becoming self-taught{" "}
-        <span className="font-medium">in software development and a fair knowledge on blockchain tech and it's security</span>.{" "}
+        passion for programming. I researched and learned{" "}
+        <span className="font-medium">software development and have a fair knowledge on blockchain tech and it's security</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stacks
@@ -34,7 +34,7 @@ function About() {
         </span>
         . I'm also familiar with javaScript and solidity. I am open to
         learning new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time junior role position</span> as a software
+        <span className="font-medium">full-time junior-mid role position</span> as a software
         developer.
         </p>
 

@@ -59,7 +59,7 @@ function Intro() {
         animate={{ opacity: 1, y: 0 }}
         >
         <span className="font-bold">Hello, I'm Ignatius</span>, a{" "}
-        <span className="font-bold">Self-taught Software Developer</span>. {" "}
+        <span className="font-bold"> Software Developer</span>. {" "}
         <span className="font-bold"></span>  I enjoy {" "}
         building <span className="italic"> the backend of websites & apps</span>. My focus is learning more about {" "}
         <span className="underline"> Laravel, Blockchain Tech, and getting (1%) better everyday</span>.
@@ -94,7 +94,7 @@ function Intro() {
              focus:scale-110 hover:scale-110
              active:scale-150 transition cursor-pointer
              border borderBlack dark:bg-white/10'
-             href='/CV.pdf'
+             href='/Ofon-Resume.pdf'
              download={true}
              >
                 Download CV{" "}
