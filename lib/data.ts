@@ -94,6 +94,7 @@ export const skillsData = [
   "Hardhat",
   "Ethers.js",
   "Node.js",
+  "MongoDB",
   "Express",
   "GraphQL",
 ] as const
