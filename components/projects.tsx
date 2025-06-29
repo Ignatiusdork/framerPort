@@ -13,7 +13,7 @@ function Projects() {
 
   return (
    <section ref={ref} id="projects" className='scroll-mt-28 mb-28'>
-        <SectionHeading>My projects</SectionHeading>
+        <SectionHeading>My Projects</SectionHeading>
         <div>
             {
                 projectsData.map((projects, index) => (
