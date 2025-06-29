@@ -58,9 +58,9 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
-        <span className="font-bold">Hello, I'm Ignatius</span>, a{" "}
-        <span className="font-bold"> Software Developer</span>. {" "}
-        <span className="font-bold"></span>  I enjoy {" "}
+        <span className="font-bold">Hello, I'm Ignatius</span> a{" "}
+        <span className="font-bold"> Software Developer</span>, {" "}
+        <span className="font-bold"></span>  who enjoys {" "}
         building <span className="italic"> the backend of websites & apps</span>. My focus is learning more about {" "}
         <span className="underline"> Laravel, Blockchain Tech, and getting (1%) better everyday</span>.
         </motion.h1>
