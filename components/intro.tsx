@@ -61,7 +61,7 @@ function Intro() {
         <span className="font-bold">Hello, I'm Ignatius</span> a{" "}
         <span className="font-bold"> Software Developer</span>, {" "}
         <span className="font-bold"></span>  who enjoys {" "}
-        building <span className="italic"> the backend of websites & apps</span>. My focus is learning more about {" "}
+        building <span className="italic"> the full-stack of websites & apps</span>. My focus is learning more about {" "}
         <span className="underline"> Backend frameworks like Laravel, Express, and also Blockchain Tech, while getting (1%) better everyday</span>.
         </motion.h1>
 
@@ -94,7 +94,7 @@ function Intro() {
              focus:scale-110 hover:scale-110
              active:scale-150 transition cursor-pointer
              border borderBlack dark:bg-white/10'
-             href='/Ofon-Resume.pdf'
+             href='/OfonsNodeResume.pdf'
              download={true}
              >
                 Download CV{" "}

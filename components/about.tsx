@@ -34,7 +34,7 @@ function About() {
         </span>
         . I'm also familiar with javaScript and solidity. I am open to
         learning new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time junior-mid role position</span> as a software
+        <span className="font-medium">full-time mid role position</span> as a software
         developer.
         </p>
 
